@@ -29,5 +29,7 @@ cacheSolve <- function(x, ...) {
   m
 }
 
-
+ip1 <- matrix(c(11:20),2,2)
+ip2 <- makeCacheMatrix(ip1)
+cacheSolve(ip2)
 
